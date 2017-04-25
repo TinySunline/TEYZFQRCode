@@ -1,0 +1,6 @@
+framework module TEYZFQRCode {
+  umbrella header "TEYZFQRCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

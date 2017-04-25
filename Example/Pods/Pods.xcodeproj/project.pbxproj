@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D04AF8F253D51DF457504332CF2ABD3 /* Pods-TEYZFQRCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B4EA70BBD94C4CF9E8F0900990C295 /* Pods-TEYZFQRCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269B316939AC8CB42739BA251C226369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2767100C24324729B7E6D426F62B94F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		467EC04D1F562991440541C215855F19 /* TEYZFQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5A67C45A8E143A3E1DDD1C23A442B /* TEYZFQRCode-dummy.m */; };
+		81E20FE9F625A04846825F5393B7B20E /* TEYZFQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C523431A8AB823A4EE001E774CACAFEE /* TEYZFQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		826DEBAA746C180773752E1E67067DCA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 005443EFF26A4847D02BA31255C8A605 /* ReplaceMe.m */; };
+		A831AF6C42B296652A36164D7C0EA0A0 /* Pods-TEYZFQRCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3CDE16116C4A87DBFDAD48F1BF36FD /* Pods-TEYZFQRCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE51382D1EAF287900437D39 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = AE51381B1EAF287900437D39 /* bitstream.c */; };
+		AE51382E1EAF287900437D39 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = AE51381C1EAF287900437D39 /* bitstream.h */; };
+		AE51382F1EAF287900437D39 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = AE51381D1EAF287900437D39 /* mask.c */; };
+		AE5138301EAF287900437D39 /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = AE51381E1EAF287900437D39 /* mask.h */; };
+		AE5138311EAF287900437D39 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = AE51381F1EAF287900437D39 /* qrencode.c */; };
+		AE5138321EAF287900437D39 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138201EAF287900437D39 /* qrencode.h */; };
+		AE5138331EAF287900437D39 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = AE5138211EAF287900437D39 /* qrinput.c */; };
+		AE5138341EAF287900437D39 /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138221EAF287900437D39 /* qrinput.h */; };
+		AE5138351EAF287900437D39 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = AE5138231EAF287900437D39 /* qrspec.c */; };
+		AE5138361EAF287900437D39 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138241EAF287900437D39 /* qrspec.h */; };
+		AE5138371EAF287900437D39 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = AE5138251EAF287900437D39 /* rscode.c */; };
+		AE5138381EAF287900437D39 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138261EAF287900437D39 /* rscode.h */; };
+		AE5138391EAF287900437D39 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = AE5138271EAF287900437D39 /* split.c */; };
+		AE51383A1EAF287900437D39 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138281EAF287900437D39 /* split.h */; };
+		AE51383B1EAF287900437D39 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5138291EAF287900437D39 /* QRCodeGenerator.h */; };
+		AE51383C1EAF287900437D39 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51382A1EAF287900437D39 /* QRCodeGenerator.m */; };
+		AE51383D1EAF287900437D39 /* TEYZFQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = AE51382B1EAF287900437D39 /* TEYZFQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE51383E1EAF287900437D39 /* TEYZFQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51382C1EAF287900437D39 /* TEYZFQRCode.m */; };
+		C93DEEC48870A1F867AF46F61E7F7760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CD5CADF966A65A249D3B7118D0738176 /* Pods-TEYZFQRCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A486A713DA94EC84AF54DD4ECB12D63 /* Pods-TEYZFQRCode_Example-dummy.m */; };
+		DA7C4C7AE78D75F1B13C368FE9767B23 /* Pods-TEYZFQRCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EBCB2DD388017934AC6CA3B514CE /* Pods-TEYZFQRCode_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B5A994D59C87E2B3AAC6420053E20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5399A60C1C9C55CA35C722AA1D8AFB55;
+			remoteInfo = TEYZFQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005443EFF26A4847D02BA31255C8A605 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		07A1B407B8DFDD97D1CD0827C0036729 /* TEYZFQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TEYZFQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD80F64A4F9D0CB602A879FFFE5F41C /* Pods-TEYZFQRCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEYZFQRCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B3CDE16116C4A87DBFDAD48F1BF36FD /* Pods-TEYZFQRCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEYZFQRCode_Example-umbrella.h"; sourceTree = "<group>"; };
+		373D3005B44B0F1ADC5EEBC94DA90DA9 /* Pods-TEYZFQRCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEYZFQRCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4413A060A243DE8C4DD54F16826A979B /* Pods-TEYZFQRCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEYZFQRCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6254DC24B0D9DF9546C1C3810D8A16 /* Pods-TEYZFQRCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TEYZFQRCode_Example.modulemap"; sourceTree = "<group>"; };
+		5BDEE12A6D40CD247AAE5A770781314A /* Pods-TEYZFQRCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEYZFQRCode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D74F025979A270919790F08DC41D025 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67AC95FEDA501E5666A440B63587E142 /* Pods-TEYZFQRCode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEYZFQRCode_Example-resources.sh"; sourceTree = "<group>"; };
+		6FA6EBCB2DD388017934AC6CA3B514CE /* Pods-TEYZFQRCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TEYZFQRCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		751BDAD02FC8C5E40D36F39A61295AD9 /* Pods-TEYZFQRCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TEYZFQRCode_Tests.modulemap"; sourceTree = "<group>"; };
+		7D779260DC874EC898D1FAEC1177C227 /* Pods_TEYZFQRCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEYZFQRCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E366937ABC20F344CE4726678E7CD13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A486A713DA94EC84AF54DD4ECB12D63 /* Pods-TEYZFQRCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TEYZFQRCode_Example-dummy.m"; sourceTree = "<group>"; };
+		8C8DCA5DB0F40661DD30F6A2D4B10B43 /* TEYZFQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TEYZFQRCode.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97AFD14DDF362B24586737E019457F05 /* Pods-TEYZFQRCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEYZFQRCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A03757F5C7F8CBC59B16235F7E2DD913 /* Pods-TEYZFQRCode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEYZFQRCode_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ACC0A18DBB193DCC776A32B3F2619D0E /* TEYZFQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEYZFQRCode.xcconfig; sourceTree = "<group>"; };
+		AE51381B1EAF287900437D39 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		AE51381C1EAF287900437D39 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		AE51381D1EAF287900437D39 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		AE51381E1EAF287900437D39 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		AE51381F1EAF287900437D39 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		AE5138201EAF287900437D39 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		AE5138211EAF287900437D39 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		AE5138221EAF287900437D39 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		AE5138231EAF287900437D39 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		AE5138241EAF287900437D39 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		AE5138251EAF287900437D39 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		AE5138261EAF287900437D39 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		AE5138271EAF287900437D39 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		AE5138281EAF287900437D39 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		AE5138291EAF287900437D39 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		AE51382A1EAF287900437D39 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		AE51382B1EAF287900437D39 /* TEYZFQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEYZFQRCode.h; sourceTree = "<group>"; };
+		AE51382C1EAF287900437D39 /* TEYZFQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEYZFQRCode.m; sourceTree = "<group>"; };
+		AE9A569AA66295A4B48AAE9CB8119097 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4B9B6E789F0253E1D9DDA8E24437ED /* Pods-TEYZFQRCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEYZFQRCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C523431A8AB823A4EE001E774CACAFEE /* TEYZFQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEYZFQRCode-umbrella.h"; sourceTree = "<group>"; };
+		C57ED8C7658EAF114185B559FC687321 /* Pods-TEYZFQRCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEYZFQRCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6C03FB083CD1BBDD5583227707F907F /* Pods-TEYZFQRCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEYZFQRCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9943297E8C924ADF22AA62ACCECD2D4 /* Pods_TEYZFQRCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEYZFQRCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA5A67C45A8E143A3E1DDD1C23A442B /* TEYZFQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TEYZFQRCode-dummy.m"; sourceTree = "<group>"; };
+		DAA9B99397B4A94EC9F4EC8DA77858BA /* Pods-TEYZFQRCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEYZFQRCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B4EA70BBD94C4CF9E8F0900990C295 /* Pods-TEYZFQRCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEYZFQRCode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E76B4F7391E453DEB655F65B5FB6DCC0 /* TEYZFQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEYZFQRCode-prefix.pch"; sourceTree = "<group>"; };
+		F210D1CF0D0FC283F061A0DF25F9F255 /* Pods-TEYZFQRCode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEYZFQRCode_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20808001ED08586A54D7B2722EA0C60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B316939AC8CB42739BA251C226369 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4804A9B2DAB55866AC1984F2CADA16E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93DEEC48870A1F867AF46F61E7F7760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577FCA28933CCFBD4A3A987F4431CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2767100C24324729B7E6D426F62B94F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9E7E287C47C882C740BD592DB30310 /* Pods-TEYZFQRCode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D74F025979A270919790F08DC41D025 /* Info.plist */,
+				4D6254DC24B0D9DF9546C1C3810D8A16 /* Pods-TEYZFQRCode_Example.modulemap */,
+				373D3005B44B0F1ADC5EEBC94DA90DA9 /* Pods-TEYZFQRCode_Example-acknowledgements.markdown */,
+				C6C03FB083CD1BBDD5583227707F907F /* Pods-TEYZFQRCode_Example-acknowledgements.plist */,
+				8A486A713DA94EC84AF54DD4ECB12D63 /* Pods-TEYZFQRCode_Example-dummy.m */,
+				5BDEE12A6D40CD247AAE5A770781314A /* Pods-TEYZFQRCode_Example-frameworks.sh */,
+				67AC95FEDA501E5666A440B63587E142 /* Pods-TEYZFQRCode_Example-resources.sh */,
+				2B3CDE16116C4A87DBFDAD48F1BF36FD /* Pods-TEYZFQRCode_Example-umbrella.h */,
+				4413A060A243DE8C4DD54F16826A979B /* Pods-TEYZFQRCode_Example.debug.xcconfig */,
+				0FD80F64A4F9D0CB602A879FFFE5F41C /* Pods-TEYZFQRCode_Example.release.xcconfig */,
+			);
+			name = "Pods-TEYZFQRCode_Example";
+			path = "Target Support Files/Pods-TEYZFQRCode_Example";
+			sourceTree = "<group>";
+		};
+		3D13EF8C043BD2AAA388A5111976D26C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE51381A1EAF287900437D39 /* libqrencode */,
+				AE5138291EAF287900437D39 /* QRCodeGenerator.h */,
+				AE51382A1EAF287900437D39 /* QRCodeGenerator.m */,
+				AE51382B1EAF287900437D39 /* TEYZFQRCode.h */,
+				AE51382C1EAF287900437D39 /* TEYZFQRCode.m */,
+				005443EFF26A4847D02BA31255C8A605 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60BB908C5DE6107919BBF8FD221C45E2 /* TEYZFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				74D0F057135210CAD055F1248972FF2E /* Support Files */,
+				D6D5D9B8669155C0A61F9DC355829E07 /* TEYZFQRCode */,
+			);
+			name = TEYZFQRCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74D0F057135210CAD055F1248972FF2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A569AA66295A4B48AAE9CB8119097 /* Info.plist */,
+				8C8DCA5DB0F40661DD30F6A2D4B10B43 /* TEYZFQRCode.modulemap */,
+				ACC0A18DBB193DCC776A32B3F2619D0E /* TEYZFQRCode.xcconfig */,
+				CAA5A67C45A8E143A3E1DDD1C23A442B /* TEYZFQRCode-dummy.m */,
+				E76B4F7391E453DEB655F65B5FB6DCC0 /* TEYZFQRCode-prefix.pch */,
+				C523431A8AB823A4EE001E774CACAFEE /* TEYZFQRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TEYZFQRCode";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				893A47F728A87AD5E66A1DBACDBB1522 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E67A4AB8AAD2E7E0AFFA18D2FA82F71 /* Products */,
+				F9983442B0B930895F481DBF1EB44CE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		860810220A59477181CA42ADDE8870C8 /* Pods-TEYZFQRCode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E366937ABC20F344CE4726678E7CD13 /* Info.plist */,
+				751BDAD02FC8C5E40D36F39A61295AD9 /* Pods-TEYZFQRCode_Tests.modulemap */,
+				97AFD14DDF362B24586737E019457F05 /* Pods-TEYZFQRCode_Tests-acknowledgements.markdown */,
+				C57ED8C7658EAF114185B559FC687321 /* Pods-TEYZFQRCode_Tests-acknowledgements.plist */,
+				6FA6EBCB2DD388017934AC6CA3B514CE /* Pods-TEYZFQRCode_Tests-dummy.m */,
+				A03757F5C7F8CBC59B16235F7E2DD913 /* Pods-TEYZFQRCode_Tests-frameworks.sh */,
+				F210D1CF0D0FC283F061A0DF25F9F255 /* Pods-TEYZFQRCode_Tests-resources.sh */,
+				E1B4EA70BBD94C4CF9E8F0900990C295 /* Pods-TEYZFQRCode_Tests-umbrella.h */,
+				DAA9B99397B4A94EC9F4EC8DA77858BA /* Pods-TEYZFQRCode_Tests.debug.xcconfig */,
+				BE4B9B6E789F0253E1D9DDA8E24437ED /* Pods-TEYZFQRCode_Tests.release.xcconfig */,
+			);
+			name = "Pods-TEYZFQRCode_Tests";
+			path = "Target Support Files/Pods-TEYZFQRCode_Tests";
+			sourceTree = "<group>";
+		};
+		893A47F728A87AD5E66A1DBACDBB1522 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BB908C5DE6107919BBF8FD221C45E2 /* TEYZFQRCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E67A4AB8AAD2E7E0AFFA18D2FA82F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D779260DC874EC898D1FAEC1177C227 /* Pods_TEYZFQRCode_Example.framework */,
+				C9943297E8C924ADF22AA62ACCECD2D4 /* Pods_TEYZFQRCode_Tests.framework */,
+				07A1B407B8DFDD97D1CD0827C0036729 /* TEYZFQRCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE51381A1EAF287900437D39 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				AE51381B1EAF287900437D39 /* bitstream.c */,
+				AE51381C1EAF287900437D39 /* bitstream.h */,
+				AE51381D1EAF287900437D39 /* mask.c */,
+				AE51381E1EAF287900437D39 /* mask.h */,
+				AE51381F1EAF287900437D39 /* qrencode.c */,
+				AE5138201EAF287900437D39 /* qrencode.h */,
+				AE5138211EAF287900437D39 /* qrinput.c */,
+				AE5138221EAF287900437D39 /* qrinput.h */,
+				AE5138231EAF287900437D39 /* qrspec.c */,
+				AE5138241EAF287900437D39 /* qrspec.h */,
+				AE5138251EAF287900437D39 /* rscode.c */,
+				AE5138261EAF287900437D39 /* rscode.h */,
+				AE5138271EAF287900437D39 /* split.c */,
+				AE5138281EAF287900437D39 /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6D5D9B8669155C0A61F9DC355829E07 /* TEYZFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3D13EF8C043BD2AAA388A5111976D26C /* Classes */,
+			);
+			path = TEYZFQRCode;
+			sourceTree = "<group>";
+		};
+		F9983442B0B930895F481DBF1EB44CE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C9E7E287C47C882C740BD592DB30310 /* Pods-TEYZFQRCode_Example */,
+				860810220A59477181CA42ADDE8870C8 /* Pods-TEYZFQRCode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EC5EFA8379C89932ADD555DE4438C78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D04AF8F253D51DF457504332CF2ABD3 /* Pods-TEYZFQRCode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2D42C5CD797C7E0115B9C7F1DBC913 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5138381EAF287900437D39 /* rscode.h in Headers */,
+				AE51383D1EAF287900437D39 /* TEYZFQRCode.h in Headers */,
+				AE51383A1EAF287900437D39 /* split.h in Headers */,
+				AE51383B1EAF287900437D39 /* QRCodeGenerator.h in Headers */,
+				AE51382E1EAF287900437D39 /* bitstream.h in Headers */,
+				AE5138321EAF287900437D39 /* qrencode.h in Headers */,
+				AE5138361EAF287900437D39 /* qrspec.h in Headers */,
+				AE5138341EAF287900437D39 /* qrinput.h in Headers */,
+				AE5138301EAF287900437D39 /* mask.h in Headers */,
+				81E20FE9F625A04846825F5393B7B20E /* TEYZFQRCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51C69AEF246B45354F0FCC340A0C0A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A831AF6C42B296652A36164D7C0EA0A0 /* Pods-TEYZFQRCode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5399A60C1C9C55CA35C722AA1D8AFB55 /* TEYZFQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A802F5E87909E6B587B52C916C31E8 /* Build configuration list for PBXNativeTarget "TEYZFQRCode" */;
+			buildPhases = (
+				02845EEE5AF4A4BD4B4AF818F5C4E2C3 /* Sources */,
+				20808001ED08586A54D7B2722EA0C60F /* Frameworks */,
+				6C2D42C5CD797C7E0115B9C7F1DBC913 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEYZFQRCode;
+			productName = TEYZFQRCode;
+			productReference = 07A1B407B8DFDD97D1CD0827C0036729 /* TEYZFQRCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A06E229F0BCB8218D3FCAAEE962A9DD /* Pods-TEYZFQRCode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E81597019D667A00659AAB5EE96E52 /* Build configuration list for PBXNativeTarget "Pods-TEYZFQRCode_Tests" */;
+			buildPhases = (
+				7541BFF112A2B9AE41857BEC7BAD6D2B /* Sources */,
+				577FCA28933CCFBD4A3A987F4431CCE6 /* Frameworks */,
+				5EC5EFA8379C89932ADD555DE4438C78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TEYZFQRCode_Tests";
+			productName = "Pods-TEYZFQRCode_Tests";
+			productReference = C9943297E8C924ADF22AA62ACCECD2D4 /* Pods_TEYZFQRCode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B13F15D13FFCD727A68B688BC32B64C /* Pods-TEYZFQRCode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72F9AEB291D0B5B6251720D7292C733 /* Build configuration list for PBXNativeTarget "Pods-TEYZFQRCode_Example" */;
+			buildPhases = (
+				A6C2873D7D83B3ADEB9324C14C33153F /* Sources */,
+				4804A9B2DAB55866AC1984F2CADA16E2 /* Frameworks */,
+				E51C69AEF246B45354F0FCC340A0C0A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95B875706BA2FA7F140699A916EB428 /* PBXTargetDependency */,
+			);
+			name = "Pods-TEYZFQRCode_Example";
+			productName = "Pods-TEYZFQRCode_Example";
+			productReference = 7D779260DC874EC898D1FAEC1177C227 /* Pods_TEYZFQRCode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8E67A4AB8AAD2E7E0AFFA18D2FA82F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B13F15D13FFCD727A68B688BC32B64C /* Pods-TEYZFQRCode_Example */,
+				6A06E229F0BCB8218D3FCAAEE962A9DD /* Pods-TEYZFQRCode_Tests */,
+				5399A60C1C9C55CA35C722AA1D8AFB55 /* TEYZFQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02845EEE5AF4A4BD4B4AF818F5C4E2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE51383E1EAF287900437D39 /* TEYZFQRCode.m in Sources */,
+				826DEBAA746C180773752E1E67067DCA /* ReplaceMe.m in Sources */,
+				AE5138371EAF287900437D39 /* rscode.c in Sources */,
+				AE51382D1EAF287900437D39 /* bitstream.c in Sources */,
+				AE5138391EAF287900437D39 /* split.c in Sources */,
+				AE5138311EAF287900437D39 /* qrencode.c in Sources */,
+				AE51383C1EAF287900437D39 /* QRCodeGenerator.m in Sources */,
+				467EC04D1F562991440541C215855F19 /* TEYZFQRCode-dummy.m in Sources */,
+				AE5138351EAF287900437D39 /* qrspec.c in Sources */,
+				AE51382F1EAF287900437D39 /* mask.c in Sources */,
+				AE5138331EAF287900437D39 /* qrinput.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541BFF112A2B9AE41857BEC7BAD6D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7C4C7AE78D75F1B13C368FE9767B23 /* Pods-TEYZFQRCode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C2873D7D83B3ADEB9324C14C33153F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5CADF966A65A249D3B7118D0738176 /* Pods-TEYZFQRCode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D95B875706BA2FA7F140699A916EB428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEYZFQRCode;
+			target = 5399A60C1C9C55CA35C722AA1D8AFB55 /* TEYZFQRCode */;
+			targetProxy = 83B5A994D59C87E2B3AAC6420053E20F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		344970B32653F11D832EA1CAEC5CCB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC0A18DBB193DCC776A32B3F2619D0E /* TEYZFQRCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TEYZFQRCode/TEYZFQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEYZFQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TEYZFQRCode/TEYZFQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TEYZFQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851898AB7DB3799D75CE939C3BC3B2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA9B99397B4A94EC9F4EC8DA77858BA /* Pods-TEYZFQRCode_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEYZFQRCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEYZFQRCode_Tests/Pods-TEYZFQRCode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEYZFQRCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9091EBAEB738EFB124E60AA2380DCFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4413A060A243DE8C4DD54F16826A979B /* Pods-TEYZFQRCode_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEYZFQRCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEYZFQRCode_Example/Pods-TEYZFQRCode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEYZFQRCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C330B615DBC4EEBAA8B66ACBF81B85B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4B9B6E789F0253E1D9DDA8E24437ED /* Pods-TEYZFQRCode_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEYZFQRCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEYZFQRCode_Tests/Pods-TEYZFQRCode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEYZFQRCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE9B8C97AA9E691CF83D267ACC881F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC0A18DBB193DCC776A32B3F2619D0E /* TEYZFQRCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TEYZFQRCode/TEYZFQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEYZFQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TEYZFQRCode/TEYZFQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TEYZFQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD2D7A8250AACB86CD4AB0CCB5337C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD80F64A4F9D0CB602A879FFFE5F41C /* Pods-TEYZFQRCode_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEYZFQRCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEYZFQRCode_Example/Pods-TEYZFQRCode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEYZFQRCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72F9AEB291D0B5B6251720D7292C733 /* Build configuration list for PBXNativeTarget "Pods-TEYZFQRCode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9091EBAEB738EFB124E60AA2380DCFF1 /* Debug */,
+				FD2D7A8250AACB86CD4AB0CCB5337C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A802F5E87909E6B587B52C916C31E8 /* Build configuration list for PBXNativeTarget "TEYZFQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344970B32653F11D832EA1CAEC5CCB03 /* Debug */,
+				CE9B8C97AA9E691CF83D267ACC881F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E81597019D667A00659AAB5EE96E52 /* Build configuration list for PBXNativeTarget "Pods-TEYZFQRCode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851898AB7DB3799D75CE939C3BC3B2B6 /* Debug */,
+				C330B615DBC4EEBAA8B66ACBF81B85B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

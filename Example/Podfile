@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TEYZFQRCode_Example' do
+  pod 'TEYZFQRCode', :path => '../'
+
+  target 'TEYZFQRCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
